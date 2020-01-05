@@ -1,0 +1,26 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css";
+
+section {
+  margin: 20px 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.nav-item {
+  display: inline-block;
+}
+.navbar-brand {
+  display: inline-block;
+}
+.navbar-nav {
+  display: inline-block;
+  text-align: left;
+  float: left;
+}
+
+.navbar-nav .nav-link {
+  padding: 0 10px;
+}
