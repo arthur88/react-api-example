@@ -1,7 +1,7 @@
 import React from "react";
 
+import Main from "./pages/Main";
 import Header from "./global/Header";
-import Home from "./pages/Home";
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
         <div className="container-fluid">
           <div className="row">
             <div className="col-12">
-              <Home />
+              <Main />
             </div>
           </div>
         </div>

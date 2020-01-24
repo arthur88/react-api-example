@@ -1,7 +1,12 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css";
-
+body {
+  text-align: left;
+}
 section {
   margin: 20px 0;
+}
+li {
+  text-align: left;
 }
 
 .App {
@@ -23,4 +28,26 @@ section {
 
 .navbar-nav .nav-link {
   padding: 0 10px;
+}
+
+.nav-item {
+  color: #fff;
+}
+
+.card {
+  width: 280px;
+  min-height: 310px;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  text-align: left;
+  font-size: 12px;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.card-text {
+  padding: 2px 0;
 }

@@ -8,12 +8,25 @@ const Header = () => (
         REST API
       </NavLink>
       <div className="navbar-nav">
-        <NavLink to="/" className="nav-item nav-link active">
-          Home <span className="sr-only">(*current)</span>
-        </NavLink>
-        <NavLink to="/api" className="nav-item nav-link">
-          Fetch form API
-        </NavLink>
+        <li className="nav-item">
+          <NavLink to="/" className="nav-item nav-link active">
+            Home <span className="sr-only">(*current)</span>
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <strong>API's</strong>:
+        </li>
+        <li className="nav-item">
+          <NavLink to="/typecode" className="nav-item nav-link">
+            typicode
+          </NavLink>
+        </li>
+        <li className="nav-item">{" | "}</li>
+        <li className="nav-item">
+          <NavLink to="/reqres" className="nav-item nav-link">
+            ReqRes
+          </NavLink>
+        </li>
       </div>
     </nav>
   </header>
