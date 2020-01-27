@@ -27,6 +27,12 @@ const Header = () => (
             ReqRes
           </NavLink>
         </li>
+        <li className="nav-item">{" | "}</li>
+        <li className="nav-item">
+          <NavLink to="/traffic" className="nav-item nav-link">
+            Traffic in Vilnius
+          </NavLink>
+        </li>
       </div>
     </nav>
   </header>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Mdata = ({ dat, index }) => (
+const Mdata = ({ dat, key }) => (
   <tr>
     <td>{dat.id}</td>
     <td>{dat.email}</td>
@@ -61,8 +61,8 @@ export default class Reqres extends React.Component {
             </tr>
           </thead>
           <tbody>
-            {mapdata.data.map((dat, key) => (
-              <Mdata dat={dat} index={key} />
+            {mapdata.data.map(dat => (
+              <Mdata dat={dat} key={dat.key} />
             ))}
           </tbody>
         </table>

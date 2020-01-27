@@ -18,7 +18,7 @@ function Typecode() {
         <div>
           <h2>React Async - Random Users</h2>
         </div>
-        <div class="row">
+        <div className="row">
           {data.map(user => (
             <div className="col-6 col-sm-6 col-md-6 col-lg-3">
               <div key={user.username} className="card">
