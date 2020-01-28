@@ -14,10 +14,6 @@ const Home = () => (
       <li>
         <code>Reqres</code>: https://reqres.in/api/users?page
       </li>
-      <li>
-        <code>Vilnius Traffic API</code>:
-        https://arcgis.sviesoforai.lt/arcgis/rest/services/VIS/Vilnius_sde_dynamic/MapServer/12/query?where=1%3D1&outFields=*&outSR=4326&f=json
-      </li>
     </ul>
   </section>
 );
